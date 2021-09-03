@@ -7,7 +7,7 @@
 }
 
 *{
-    font-family : 'Quiksand' , sans-serif;
+    font-family : 'Quicksand' , sans-serif;
     padding : 0;
     margin : 0;
     box-sizing: border-box;
@@ -47,7 +47,30 @@ h1, h2, h3, h4, h5, h6{
     text-transform: capitalize;
 }
 
-
+.text{
+    margin: 0.6rem 0;
+    opacity: 0.8;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    padding: 6.5rem 0;
+}
+.title{
+    padding: 0.6rem 0;
+    text-align: center;
+}
+.title h2{
+    font-size: 2.2rem;
+    color: var(--night-rider);
+}
+.title .text{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
 
 /*header*/
 .header{
@@ -61,6 +84,9 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar{
